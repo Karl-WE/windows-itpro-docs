@@ -29,6 +29,10 @@ Before you begin the process of adding Windows Update for Business reports to yo
 - The Log Analytics workspace must be in a [supported region](#log-analytics-regions).
 - Data in the **Driver update** tab of the [workbook](wufb-reports-workbook.md) is only available for devices that receive driver and firmware updates from [Windows Autopatch](/windows/deployment/windows-autopatch/overview/windows-autopatch-overview).
 
+## Licensing
+
+For centralized WUfB management with update rings and deferrals, you’ll need Microsoft Intune, which requires Microsoft 365 Business Premium or an Intune license.
+
 ## Permissions
 
 [!INCLUDE [Windows Update for Business reports permissions](./includes/wufb-reports-admin-center-permissions.md)]
